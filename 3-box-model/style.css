@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;/*este sirve para que una caja respete el ancho asignado, sin que crezca con un padding*/
+}
+body{
+    background-image:url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    margin:20px auto;
+    width: 400px;
+    font-weight: bold;
+    background-color: #37465B;
+    padding: 40px;
+}
+.card{
+    display: flex;
+    background-color: #455874;
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 8px;
+}
+.card-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    margin-right:16px;
+}
+article p{
+    margin-top: 8px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.html{
+    background-color: #FEF1EA;
+}
+.css{
+    background-color: #E1FDF1;
+}
+.js{
+    background-color: #EDF1FF;
+}
+.accesibility{
+    background-color: #F5E9FB;
+}
+.card-icon svg{
+    margin: 8px 0 0 8px;
+}

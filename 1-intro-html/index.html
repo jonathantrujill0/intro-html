@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro HTML</title>
+</head>
+<body style="background-color:rgb(253, 240, 224) ;">
+    <!--Etiquetas de título-->
+    <h1>Heading 1: Tienda de <span style="color: red;">frutas</span> 🤓</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <br><!--Etiqueta de break-->
+    <hr><!--Este es un horizontal row o línea de división-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolores ipsam illum similique atque earum commodi rem iusto architecto ipsa? Consequuntur corporis quas aliquid sint magni molestias at eius beatae?</p>
+    <!--Etiqueta de imagen-->
+    <figure>
+        <img src="./images/screen.png" width="250px" alt="Mujer observando" title="Mujer observando">
+    </figure>
+    <br>
+    <hr>
+    <br>
+    <h1>Listas ordenadas</h1>
+    <ol>
+        <li>Crrar carpeta de proyecto</li>
+        <li>Vincular la carpeta de proyecto en VSCode</li>
+        <li>Crear archivo index.html</li>
+        <li>Generar estructura básica de HTML</li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <h1>Listas no ordenadas</h1>
+    <ul>
+        <!--Convertir cada fruta en un enlace, el enlace nos debe direccionar a la wikipedia con info de la fruta-->
+        <li><a href="https://es.wikipedia.org/wiki/Manzana" target="_blank">Manzanas</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Piña" target="_blank">Piña</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Uva" target="_blank">Uvas</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Fresa" target="_blank">Fresa</a></li>
+    </ul>
+    <hr>
+    <h1>Hipervínculos o enlaces</h1>
+    <a href="https://spotify.design/" target="_blank">Ver Spotify Design</a>
+    <br>
+    <hr>
+    <br>
+        <!--Tarea:Desarrollar una tabla de posiciones para una carrera de 8 animales.-->
+
+    <table border="sit">
+        <tr>
+            <th>Posición</th>
+            <th>Animal</th>
+            <th>Paía</th>
+            <th>Biografía</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Perro</td>
+            <td>México</td>
+            <td><a href="">Ver detalle</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Gato</td>
+            <td>Persia</td>
+            <td><a href="">Ver detalle</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Jirafa</td>
+            <td>Francia</td>
+            <td><a href="">Ver detalle</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ratón</td>
+            <td>Brasil</td>
+            <td><a href="">Ver detalle</a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Chimpancé</td>
+            <td>África</td>
+            <td><a href="">Ver detalle</a></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Elefante</td>
+            <td>Perú</td>
+            <td><a href="">Ver detalle</a></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Serpiente</td>
+            <td>Canadá</td>
+            <td><a href="">Ver detalle</a></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Araña</td>
+            <td>Filipinas</td>
+            <td><a href="">Ver detalle</a></td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h2>Formulario</h2>
+    <form action="">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Agrega tu primer nombre">
+        </div>
+        <div>
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" placeholder="Agrega tu correo">
+        </div>
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="Agrega tu contraseña">
+        </div>
+        <div>
+            <input type="radio" name="frutas" id="manzana" value="manzana">
+            <label for="manzana">Manzana</label>
+            <br>
+            <input type="radio" name="frutas" id="pera" value="pera">
+            <label for="manzana">Pera</label>
+            <br>
+            <input type="radio" name="frutas" id="neranja" value="naranja">
+            <label for="manzana">Naranja</label>
+        </div>
+        <input type="submit" value="Enviar información">
+    </form>
+</body>
+</html>
